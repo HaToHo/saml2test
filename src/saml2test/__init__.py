@@ -12,7 +12,7 @@ logger = logging.getLogger(__name__)
 
 __author__ = 'rolandh'
 
-JSON_DUMPS_ARGS = {"sort_keys": True}
+JSON_DUMPS_ARGS = {"indent": 4, "sort_keys": True}
 
 
 class FatalError(Exception):
